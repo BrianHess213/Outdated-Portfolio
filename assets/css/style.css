@@ -1,0 +1,379 @@
+/* add the font family to all the text on the page */
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* Declares the properties to be used theought the page */
+:root{
+    --AccentRed: #980000;
+    --AccentWhite: #FEFCFF ;
+}
+/* Gives the main background a different color */
+
+body{
+    
+    background-color: rgb(24, 24, 24);
+}
+
+/* Defines the styling and spacing of the header and also sets up the nav for better accessibility */
+header{
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: var(--AccentRed);
+}
+
+header h1{
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    color: var(--AccentWhite);
+}
+
+.Links{
+    position: relative;
+    font-size: 30px;
+    left: 1200px;
+    top: 2px;
+}
+
+.Links a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: var(--AccentWhite);
+}
+
+.Links a::before{
+    content: " | ";
+}
+
+.Links a::after{
+    content: " | ";
+}
+
+/* Setting up the nav for a responsive design  */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Sets up the main section of the website with flexbox and to make it page responsive */
+main{
+    display: flex;
+  flex-wrap: wrap;
+}
+
+/* Adds the styling and spacing to the banner image below the header */
+.Banner{
+   padding: 10px; 
+   margin-top: 30px;
+}
+
+.Banner img {
+    width: 100%;
+    height: 600px;
+}
+
+.Banner h2{
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    font-size: 40px;
+    color: var(--AccentWhite);
+
+}
+
+/* Adds the styling and spacing to the sidebar */
+.SideBar{
+    width: 300px;
+}
+
+aside{
+    flex: 1;
+    background-color: var(--AccentRed);
+    text-align: right;
+    height: 1700px;
+}
+
+aside h3{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 700px 0px;
+    color: var(--AccentWhite);
+    font-size: 30px;
+}
+
+.LoweringAboutMe{
+    position: relative;
+    top: 30px;
+}
+
+/* Adding the styling and spacing for the about me section which includes an image and discription */
+.AboutMeContent{
+    flex: 2;
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.AboutMeContent img{
+    
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+}
+
+.AboutMe{
+    position: relative;
+    color: var(--AccentWhite);
+    width: 1000px;
+    left: 50px;   
+}
+
+.AboutMe h4{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.AboutMe p{
+    width: 700px;
+    margin-left: 20px;
+    text-indent: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Adds the First project styling and spacing to page with and overlay and title */
+.FirstProject{
+    display: flex;
+    margin-top: 50px;
+}
+.FirstProject img{
+    position: relative;
+    top: 100px;
+    right: 200px;
+    width: 900px;
+    height: 400px;
+}
+
+.FirstProjectOverlay{
+    position: absolute;
+    top: 404px;
+    right: 280px;
+    width: 90%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--AccentWhite);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.FirstProjectOverlay:hover{
+    opacity: 1;
+}
+
+.FirstProject p{
+    position: relative;
+    font-size:30px; 
+}
+
+/* Add the Second Section styling and spacing of the Projects second, third, fourth, and fifth */
+.SecondProject{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+
+.SecondProject img{
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 100px;
+    right: 170px;
+    margin: 0px 80px 40px 0px;
+    width: 400px;
+    height: 250px;
+    
+}
+
+.SecondProjectOverlay{
+    position: absolute;
+    top: 874px;
+    right: 770px;
+    width: 400px;
+    height: 253px;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--AccentWhite);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    
+}
+
+.SecondProjectOverlay:hover{
+    opacity: 1;
+}
+
+.SecondProject p{
+    position: relative;
+    font-size:30px; 
+}
+
+.ThirdProjectOverlay{
+    position: absolute;
+    top: 874px;
+    right: 290px;
+    width: 400px;
+    height: 253px;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--AccentWhite);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.ThirdProjectOverlay:hover{
+    opacity: 1;
+}
+
+.ThirdProject p{
+    position: relative;
+    font-size:30px; 
+}
+
+.FourthProjectOverlay{
+    position: absolute;
+    top: 1164px;
+    right: 770px;
+    width: 400px;
+    height: 251px;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--AccentWhite);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.FourthProjectOverlay:hover{
+    opacity: 1;
+}
+
+.FourthProject p{
+    position: relative;
+    font-size:30px; 
+}
+
+.FifthProjectOverlay{
+    position: absolute;
+    top: 1164px;
+    right: 290px;
+    width: 400px;
+    height: 251px;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--AccentWhite);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.FifthProjectOverlay:hover{
+    opacity: 1;
+}
+
+.FifthProject p{
+    position: relative;
+    font-size: 50px; 
+}
+
+/* Adds the sytling and spacing of the contact me section with information to contact me */
+.ContactMe{
+    display: flex;
+    position: relative;
+   justify-content: space-evenly;
+   margin-top: 100px;
+   top: 75px;
+   right: 200px;
+   
+}
+.ContactMe p{
+    color: var(--AccentWhite);
+}
+
+.ContactMe a{
+    color: var(--AccentWhite);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.ContactMe a::before{
+    content: " | ";
+}
+
+.ContactMe a::after{
+    content: " | ";
+}
+
+/* Adds the styling and spacing to the footer of the page */
+footer{ 
+    
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 40px;
+    background-color: var(--AccentRed); 
+    overflow: hidden;
+}
+
+footer .FooterBox p{
+    position: relative;
+    top: 60px;
+    padding: 20px;
+    color: var(--AccentWhite);
+    text-align: center;
+
+}
+
+/* Adds the media rule is used in media queries to apply different styles for different media types/devices. */
+@media screen and (max-width: 1024px) {
+        /* Use flex-direction to stack the navbar, sidebar, and body */
+        main, aside, body, nav{
+        flex-direction: column;
+        width: 100%; 
+        }
+        /* Make the sidebar stack below the body */
+        aside {
+            order: 1;
+        }
+        main {
+            order: 2;
+        }
+
+    @media screen and (max-width: 678px) {
+        main, body, nav {
+        flex-direction: column;
+        width: 100%; 
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        main, nav {
+        flex-direction: column;
+        width: 100%; 
+        }
+    }
+}
