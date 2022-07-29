@@ -40,6 +40,6 @@ $ Then Click Open
 
 * https://brianhess213.github.io/Brian-Hess-Portfolio/
 
-![](./assets/images/Screenshot.png" Top of the page")
-![](./assets/images/Screenshot%201.png" Middle of the page")
-![](./assets/images/Screenshot%202.png" Bottom of the page")
+![Screenshot](./assets/images/Screenshot.png" Top of the page")
+![Screenshot 2](./assets/images/Screenshot1.png" Middle of the page")
+![screenshot 3](./assets/images/Screenshot2.png" Bottom of the page")
