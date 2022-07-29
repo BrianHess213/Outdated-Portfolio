@@ -35,11 +35,12 @@ $ Then Click Open
 
 ## Additional Documentation and Acknowledgments
 
- Links to the website also a few screenshots 
+ Links to the website also a screenshot 
 
 
 * https://brianhess213.github.io/Brian-Hess-Portfolio/
 
-![Screenshot](./assets/images/Screenshot.png" Top of the page")
-![Screenshot 2](./assets/images/Screenshot1.png" Middle of the page")
-![screenshot 3](./assets/images/Screenshot2.png" Bottom of the page")
+
+
+<img width="1280" alt="Screenshot1" src="https://user-images.githubusercontent.com/109031060/181682557-d61081c9-c6a8-4678-b831-907c975a5477.png">
+
