@@ -41,5 +41,5 @@ $ Then Click Open
 * Add link here
 
 ![](./assets/images/Screenshot.png" Top of the page")
-![](./assets/images/Screenshot1.png" Middle of the page")
-![](./assets/images/Screenshot2.png" Bottom of the page")
+![](./assets/images/Screenshot%201.png" Middle of the page")
+![](./assets/images/Screenshot%202.png" Bottom of the page")

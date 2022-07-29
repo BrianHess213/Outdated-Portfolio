@@ -31,9 +31,10 @@ header h1{
 }
 
 .Links{
+    display: flex;
     position: relative;
     font-size: 30px;
-    left: 1200px;
+    justify-content: right;
     top: 2px;
 }
 
